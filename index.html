@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Стили</title>
+        <style>
+        h2{
+            color:blue;
+        }
+        div{
+            width: 100px; 
+            height: 100px; 
+            background-color: red;
+        }
+            .redBlock{
+                background-color: red;
+            }
+            .blueBlock{
+                background-color: blue;
+            }
+            #header{
+                height: 80px;
+                background-color: #ccc;
+            }
+            #content{
+                height: 180px;
+                background-color: #eee;
+            }
+            #footer{
+                height: 80px;
+                background-color: #ccc;
+            }
+            #main p{
+                font-size: 16px;
+            }
+            #footer p{
+                font-size: 13px;
+            }
+            li .redLink{
+                color: red;
+            }
+            .article > p{
+             
+                color: red;
+            }
+            h2+div { color: red; }
+            a:link    {color:blue; text-decoration:none}
+            a:visited {color:pink; text-decoration:none}
+            a:hover   {color:red; text-decoration:underline}
+            a:active  {color:yellow; text-decoration:underline}
+            input:hover {border:2px solid red;}
+        </style>
+    </head>
+    <body>
+        <h2>Стили</h2>
+        <div></div>
+                <h2>Классы CSS</h2>
+        <div class="redBlock"></div>
+        <div class="blueBlock"></div>
+        <div class="redBlock"></div>
+                <div id="header">Шапка сайта</div>
+        <div id="content">Основное содержимое</div>
+        <div id="footer">Футер</div>
+                <div id="main">
+            <p>Первый абзац</p>
+            <p>Второй абзац</p>
+        </div>
+        <div id="footer">
+            <p>Текст футера</p>
+        </div>
+        <ul>
+            <li>Самсунг: <a class="redLink">Galaxy S7 Edge</a></li>
+            <li>Apple: <a>iPhome SE</a></li>
+            <li>LG: <a class="redLink">LG G5</a></li>
+            <li>Microsoft: <a>Lumia 650</a></li>
+        </ul>
+        <div class="article">
+            <p>Аннотация к статье</p>
+            <div class="content">
+                <p>Текст статьи</p>
+            </div>
+        </div>
+        <h2>Заголовок</h2>
+        <div>
+            <p>Текст первого блока</p>
+        </div>
+        <div>
+            <p>Текст второго блока</p>
+        </div>
+    </body>
+</html>
